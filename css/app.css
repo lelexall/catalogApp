@@ -21,6 +21,7 @@ header {
     height: 43px;
     line-height: 43px;
     position: fixed;
+    top: 0;
     width: 100%;
 }
 header button {
@@ -56,9 +57,20 @@ header h1 {
     z-index: 20;
 }
 .layer-interna {
+    /*
     display: none;
     height: 100%;
     position: relative;
+
+    */
+    display: none;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 43px;
+
+
 }
 .layer-interna-show {
     display: block;
@@ -127,7 +139,7 @@ header h1 {
     background: #e6e6e6;
     height: 100%;
     overflow: hidden;
-    padding: 43px 0 0 0;
+   /* padding: 43px 0 0 0;*/
 }
 .product-listitem-container {
     background: #cccccc;
@@ -185,7 +197,7 @@ header h1 {
     height: 100%;
     overflow: auto;
     padding: 0 1%;
-    width: 71%;
+    width: 98%;
 }
 .product-detail-show {
     display: block;
@@ -234,7 +246,8 @@ header h1 {
     text-align: center;
 }
 .product-detail .prodotto-img img {
-    height: 100%
+    max-height: 100%;
+    max-width: 100%;
 }
 .product-detail .prodotto-info {
     height: 30px;
@@ -272,6 +285,9 @@ header h1 {
    .product-listitem-container {
      width: 27%;
    }
+   .product-detail {
+    width: 71%;
+   }
 
 }
 @media only screen and (min-width: 1024px) and (orientation: landscape){
@@ -279,5 +295,9 @@ header h1 {
    .product-listitem-container {
      width: 27%;
    }
+   .product-detail {
+    width: 71%;
+   }
+
 
 }
