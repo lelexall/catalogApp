@@ -1,7 +1,14 @@
+.fll-left {
+    float: left;
+}
+.fll-right {
+    float: right;
+}
 html,body {
     background: #e6e6e6;
-     height: 100%;
-     overflow: hidden;
+    font-size: 100%;
+    height: 100%;
+    overflow: hidden;
 
 
 }
@@ -26,7 +33,7 @@ header button {
     width: 40px;
 }
 header h1 {
-    font-size: 21px;
+    font-size: 130%;
     text-align: center;
     margin: 0;
 }
@@ -63,10 +70,12 @@ header h1 {
 .landing-testo h1,
 .landing-testo p {
     background: #fff;
-    float: left;
-    margin-right: 30%;
+    float: left; 
+    margin: 5px 15% 0 0;
 }
-
+.landing-testo p {
+    max-height: 150px;
+}
 #menu {
     background: #cccccc;
     bottom: 0;
@@ -103,7 +112,7 @@ header h1 {
     border-top: 1px solid #676767;
     border-bottom: 1px solid #333333;
     color: #fff;
-    font-size: 15px;
+    font-size: 95%;
     display: block;
     padding: 3px 10px;
     text-decoration: none;
@@ -115,12 +124,13 @@ header h1 {
 
 
 .list-product {
-    background: #cccccc;
+    background: #e6e6e6;
     height: 100%;
     overflow: hidden;
     padding: 43px 0 0 0;
 }
 .product-listitem-container {
+    background: #cccccc;
     float: left;
     height: 100%;
     overflow: auto;
@@ -135,38 +145,112 @@ header h1 {
     padding: 0;
     width: 100%;
 }
-.product-listitem li {
+.product-listitem > li {
     background: #f1f1f1;
     border-bottom: 1px solid #e6e6e6;
+    /*
     height: 100px;
     overflow: hidden;
+    */
 }
-.product-listitem li a {
+.product-listitem > li a {
     text-decoration: none;
 }
-.prodotto-img {
+.product-listitem .prodotto-img {
     float: left;
     margin: 0 5px 0 0;
     overflow: hidden;
     width: 100px;
 }
-.prodotto-titolo {
+.product-listitem .prodotto-img img {
+    width: 100%;
+}
+.product-listitem .prodotto-titolo {
     color: #000;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 105%;
     margin: 10px 0 0 0;
 }
-.prodotto-sottotitolo,
-.prodotto-codice {
+.product-listitem .prodotto-sottotitolo,
+.product-listitem .prodotto-codice {
     color: #808080;
-    font-size: 12px;
+    font-size: 80%;
     margin: 0
 }
 
 .product-detail {
-    background: #e6e6e6;
+    background: #fff;
+    display: none;
+    float: left;
     height: 100%;
-    
+    overflow: auto;
+    padding: 0 1%;
+    width: 71%;
+}
+.product-detail-show {
+    display: block;
+}
+
+.prodotto-toolbox {
+    background: #353535;
+    border-top: 1px solid #e6e6e6;
+    display: none;
+    list-style: none;
+    padding: 5px 0;
+    width: 100%;
+}
+.prodotto-toolbox li {
+    color: #fff;
+    display: inline-block;
+    font-size: 100%;
+    padding: 30px 0 0 0;
+    text-align: center;
+    width: 20%
+}
+.prodotto-toolbox li:nth-child(1) {
+    background: url(../img/ico-info.png) no-repeat center top;   
+}
+.prodotto-toolbox li:nth-child(2) {
+    background: url(../img/ico-scheda.png) no-repeat center top;   
+}
+.prodotto-toolbox li:nth-child(3) {
+    background: url(../img/ico-documenti.png) no-repeat center top;   
+}
+.prodotto-toolbox li:nth-child(4) {
+    background: url(../img/ico-video.png) no-repeat center top;   
+}
+.prodotto-toolbox li:nth-child(5) {
+    background: url(../img/ico-foto.png) no-repeat center top;   
+}
+
+.product-listitem > li.showToolbox .prodotto-toolbox {
+    display: block;
+}
+
+.product-detail .prodotto-img {
+    border-bottom: 1px solid #e6e6e6;
+    height: 500px;
+    padding: 0 0 10px 0;
+    text-align: center;
+}
+.product-detail .prodotto-img img {
+    height: 100%
+}
+.product-detail .prodotto-info {
+    height: 30px;
+}
+.product-detail h1 {
+    border-bottom: 1px solid #e6e6e6;
+    color: #000;
+    font-size: 150%;
+    font-weight: normal;
+    padding: 0 0 10px 0;
+}
+.product-detail h1 span {
+    color: #808080;
+}
+.product-detail .prodotto-testo {
+    background: #f1f1f1;
 }
 
 
@@ -186,14 +270,14 @@ header h1 {
 @media only screen and (min-width: 768px) and (orientation: portrait){
 
    .product-listitem-container {
-     width: 320px;
+     width: 27%;
    }
 
 }
 @media only screen and (min-width: 1024px) and (orientation: landscape){
 
    .product-listitem-container {
-     width: 320px;
+     width: 27%;
    }
 
 }

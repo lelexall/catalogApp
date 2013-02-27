@@ -16,98 +16,15 @@
 
         <script src="js/jquery.js"></script>
         <script src="js/domhooks.min.js"></script>
-        <script>
-            $.domHooks({
-                'body' :function(sel,$body){
-    
-                    var isiPad = (/iPad/i).test(navigator.userAgent);
-
-                    if ( isiPad ) {
-                        $body.addClass('isIpad');
-                    }
-                    else {
-                        $body.addClass('isSmartphone');
-                    }
-                },
-                '.button-menu': function (selector, $buttonMenu) {
-                    var $wrapper = $('#wrapper'),
-                        $menu = $('#menu'),
-                        menuWidth = $menu.width();
-
-                    $buttonMenu.click(function(){
-                        if ( !$wrapper.is(':animated') )  {
-                            //if wrapper is not animated 
-                            
-                            if ( !$menu.hasClass('menu-open') ) {
-                                //if menu isn't visible
-                                $wrapper.animate({
-                                    marginLeft: menuWidth+'px',
-                                }, 300, function(){$menu.addClass('menu-open')});
-                            }
-                            else {
-                                $wrapper.animate({
-                                    marginLeft: 0,
-                                }, 300, function(){$menu.removeClass('menu-open')});
-                            }
-                        }
-                    });
-
-                    $menu.find('li a').click(function(){
-                        $buttonMenu.trigger('click');
-
-                        $('.product-listitem-container').removeAttr('style');
-
-                        $wrapper.find('.layer-interna-show').removeClass('layer-interna-show');
-                        $($(this).data('target')).addClass('layer-interna-show');
-
-                        return false;
-                    });
-                 
-                    
-                },
-                '.product-listitem' : function(sel,$list) {
-                    $list.find('li a').click(function(){
-
-                        loadProdotto();
-
-                        return false;
-                    });
-                }
-            });
-            function loadProdotto(){
-                console.log(1);
-                //demo
-                $body = $('body');
-                if ( $body.hasClass('isSmartphone') ) {
-
-                    $('.product-listitem-container').animate({
-                        marginLeft: "-100%",
-                    });
-
-                }
-
-
-                $('.product-detail').append('<h1>prodotto</h1>');
-
-            }
-        </script>
-        <style>
-            
-        </style>
-
+        <script src="js/script.js"></script>
     </head>
     <body>
         <section id="menu">
             <div class="search"><input type="text" /></div>
             <ul class="menu">
                 <li><a href="javascript:;" data-target="#page-landing">Home</a></li>
-                <li class="menu-haschild"><a href="javascript:;">Prodotti</a>
-                    <ul>
-                        <li><a href="javascript:;" data-target="#category-list" data-cat="">categoria 1</a></li>
-                        <li><a href="javascript:;" data-target="#category-list" data-cat="">categoria 2</a></li>
-                        <li><a href="javascript:;" data-target="#category-list" data-cat="">categoria 3</a></li>
-                        <li><a href="javascript:;" data-target="#category-list" data-cat="">categoria 4</a></li>
-                    </ul>
+                <li class="menu-haschild menu-prodotti"><a href="javascript:;">Prodotti</a>
+                    <ul></ul>
                 </li>
                 <li class="menu-haschild"><a href="javascript:;">Profilo</a>
                     <ul>
@@ -142,64 +59,14 @@
             <section class="layer-interna" id="category-list">
                 <header>
                     <button class="button-menu"></button>
-                    <h1>Category 001</h1>
+                    <h1 id="category-title"></h1>
                     <button class="button-impostazioni"></button>
                 </header>
                 <section class="list-product">
                     <div class="product-listitem-container">
-                        <ul class="product-listitem">
-                            <li>
-                                <a href="">
-                                    <img src="./img/prodotto1.jpg" class="prodotto-img" />
-                                    <p class="prodotto-titolo">prodotto titolo</p>
-                                    <p class="prodotto-sottotitolo">prodotto sottotitolo</p>
-                                    <p class="prodotto-codice">c0d1c3</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="./img/prodotto2.jpg" class="prodotto-img" />
-                                    <p class="prodotto-titolo">prodotto titolo</p>
-                                    <p class="prodotto-sottotitolo">prodotto sottotitolo</p>
-                                    <p class="prodotto-codice">c0d1c3</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="./img/prodotto1.jpg" class="prodotto-img" />
-                                    <p class="prodotto-titolo">prodotto titolo</p>
-                                    <p class="prodotto-sottotitolo">prodotto sottotitolo</p>
-                                    <p class="prodotto-codice">c0d1c3</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="./img/prodotto2.jpg" class="prodotto-img" />
-                                    <p class="prodotto-titolo">prodotto titolo</p>
-                                    <p class="prodotto-sottotitolo">prodotto sottotitolo</p>
-                                    <p class="prodotto-codice">c0d1c3</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="./img/prodotto1.jpg" class="prodotto-img" />
-                                    <p class="prodotto-titolo">prodotto titolo</p>
-                                    <p class="prodotto-sottotitolo">prodotto sottotitolo</p>
-                                    <p class="prodotto-codice">c0d1c3</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="./img/prodotto2.jpg" class="prodotto-img" />
-                                    <p class="prodotto-titolo">prodotto titolo</p>
-                                    <p class="prodotto-sottotitolo">prodotto sottotitolo</p>
-                                    <p class="prodotto-codice">c0d1c3</p>
-                                </a>
-                            </li>
-                        </ul>
+                        <ul class="product-listitem"></ul>
                     </div>
                     <article class="product-detail">
-
                     </article>
                 </section>
             </section>
