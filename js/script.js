@@ -104,7 +104,7 @@ var database = $.parseJSON('{"lista":[{"id":"c0","nome":"categoria 0","img":"","
 
                         $(el.prodotti).each(function(j,menu){
 
-                            $menuCategorie.append('<li>'+
+                            $menuCategorie.append('<li class="clearfix">'+
                                 '<a href="javascript:;" class="clearfix" data-cat="'+id+'" data-prodotto='+menu.id+'>'+
                                     '<div class="prodotto-img"><img src="img/t_'+menu.img+'" class="" /></div>'+
                                     '<p class="prodotto-titolo">'+menu.titolo+'</p>'+
