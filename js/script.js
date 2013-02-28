@@ -149,6 +149,8 @@ var database = $.parseJSON('{"lista":[{"id":"c0","nome":"categoria 0","img":"","
 
                                 $productDetail.append('<div class="prodotto-testo">'+prodotto.testo+'</div>');
 
+                                 $productDetail.append('<ul class="prodotto-toolbox"><li>Info</li><li>Scheda</li><li>Documenti</li><li>Video</li><li>Foto</li></ul>');
+
 
                                 if ( !$productDetail.hasClass('product-detail-show')) $productDetail.addClass('product-detail-show'); 
                             }
