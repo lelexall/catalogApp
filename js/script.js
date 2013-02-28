@@ -142,7 +142,7 @@ var database = $.parseJSON('{"lista":[{"id":"c0","nome":"categoria 0","img":"","
                                 $productDetail = $('.product-detail');
 
                                 $productDetail.html('');
-                                $productDetail.append('<h1>'+prodotto.titolo+'<span>'+prodotto.sottotitolo+'</span></h1>');
+                                $productDetail.append('<h1>'+prodotto.titolo+' <span>'+prodotto.sottotitolo+'</span></h1>');
 
                                 $productDetail.append('<div class="prodotto-img"><img src="img/m_'+prodotto.img+'" /></div>');
                                 $productDetail.append('<div class="prodotto-info"><div class="fll-left">'+prodotto.codice+'</div><div class="fll-right">'+prodotto.prezzo+'€</div></div>');
