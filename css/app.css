@@ -19,7 +19,7 @@ header {
 
     border-bottom: 1px solid #000;
     height: 43px;
-    left: 0;
+    
     line-height: 43px;
     position: fixed;
     top: 0;
@@ -100,6 +100,9 @@ header h1 {
     top: 0;
     width: 73%;
     z-index: 10;
+}
+#menu.menu-open {
+    z-index: 30;
 }
 .search {
     background: #343434;
@@ -242,10 +245,9 @@ header h1 {
 .isSmartphone .product-detail .prodotto-toolbox {
     bottom: 0;
     display: block;
-    left: 0;
     margin: 0;
     position: fixed;
-    right: 0;
+    z-index: 10;
 }
 .prodotto-toolbox li {
     color: #fff;

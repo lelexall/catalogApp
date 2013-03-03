@@ -116,9 +116,10 @@ var database = $.parseJSON('{"lista":[{"id":"c0","nome":"categoria 0","img":"","
                                 }, 300, function(){$menu.addClass('menu-open')});
                             }
                             else {
+                                $menu.removeClass('menu-open')
                                 $wrapper.animate({
                                     marginLeft: 0,
-                                }, 300, function(){$menu.removeClass('menu-open')});
+                                }, 300, function(){});
                             }
                         }
                     }); 
