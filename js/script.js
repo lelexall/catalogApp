@@ -5,6 +5,9 @@ var database = $.parseJSON('{"lista":[{"id":"c0","nome":"categoria 0","img":"","
     
                     var isiPad = (/iPad/i).test(navigator.userAgent);
 
+
+                    var isiPad = true;
+
                     if ( isiPad ) {
                         $body.addClass('isIpad');
                     }
@@ -30,6 +33,17 @@ var database = $.parseJSON('{"lista":[{"id":"c0","nome":"categoria 0","img":"","
 
                         });
                     });
+
+                    //after download productlist then i fill the menu
+                        var $menuProdotti = $('.menu-prodotti ul');
+                        $menuProdotti.html('');
+
+
+                        $(database.lista).each(function(i,el){
+                            $menuProdotti.append('<li><a href="javascript:;" data-target="#category-list" data-cat="'+el.id+'">'+el.nome+'</a></li>');                        
+
+                        });
+
 
                     $(document).on(
                         'click',
@@ -63,6 +77,29 @@ var database = $.parseJSON('{"lista":[{"id":"c0","nome":"categoria 0","img":"","
                         }
                     )
                     
+
+                    $(document).on(
+                        'click',
+                        '.prodotto-toolbox li',
+                        function(){
+                            $productDetail = $('.product-detail');
+
+                            var layerattivo = $productDetail.attr('data-layerattivo');
+
+                            if ( layerattivo!= "" ) $productDetail.removeClass('product-detail-layer-'+layerattivo+'-show');
+                            
+                            var layer = $(this).attr('class').replace('prodotto-toolbox-','');
+
+                            $productDetail.addClass('product-detail-layer-'+layer+'-show');
+
+                            $productDetail.attr('data-layerAttivo',layer);
+
+
+                            //active clicked voice
+                            $(this).parent().find('.prodotto-toolbox-active').removeClass('prodotto-toolbox-active');
+                            $(this).addClass('prodotto-toolbox-active');
+                        }
+                    )
 
                 },
                 '.button-menu': function (selector, $buttonMenu) {
@@ -111,7 +148,7 @@ var database = $.parseJSON('{"lista":[{"id":"c0","nome":"categoria 0","img":"","
                                     '<p class="prodotto-sottotitolo">'+menu.sottotitolo+'</p>'+
                                     '<p class="prodotto-codice">'+menu.codice+'</p>'+
                                 '</a>'+
-                                '<ul class="prodotto-toolbox"><li>Info</li><li>Scheda</li><li>Documenti</li><li>Video</li><li>Foto</li></ul>'+
+                                '<ul class="prodotto-toolbox"><li class="prodotto-toolbox-info">Info</li><li class="prodotto-toolbox-scheda">Scheda</li><li class="prodotto-toolbox-doc">Documenti</li><li class="prodotto-toolbox-video">Video</li><li class="prodotto-toolbox-foto">Foto</li></ul>'+
                             '</li>')
                         });
 
@@ -142,17 +179,49 @@ var database = $.parseJSON('{"lista":[{"id":"c0","nome":"categoria 0","img":"","
                                 $productDetail = $('.product-detail');
 
                                 $productDetail.html('');
-                                $productDetail.append('<h1>'+prodotto.titolo+' <span>'+prodotto.sottotitolo+'</span></h1>');
 
+                                var $prodInfo = $('<div class="product-detail-layer product-detail-layer-info"  />');
+                                var $prodScheda = $('<div class="product-detail-layer product-detail-layer-scheda"  />');
+                                var $prodDoc = $('<div class="product-detail-layer product-detail-layer-doc"  />');
+                                var $prodVideo = $('<div class="product-detail-layer product-detail-layer-video" />');
+                                var $prodFoto = $('<div class="product-detail-layer product-detail-layer-foto"  />');
+
+
+                                $productDetail.append('<h1>'+prodotto.titolo+' <span>'+prodotto.sottotitolo+'</span><div class="prodotto-icona" /></h1>');
                                 $productDetail.append('<div class="prodotto-img"><img src="img/m_'+prodotto.img+'" /></div>');
-                                $productDetail.append('<div class="prodotto-info"><div class="fll-left">'+prodotto.codice+'</div><div class="fll-right">'+prodotto.prezzo+'€</div></div>');
 
-                                $productDetail.append('<div class="prodotto-testo">'+prodotto.testo+'</div>');
-
-                                 $productDetail.append('<ul class="prodotto-toolbox"><li>Info</li><li>Scheda</li><li>Documenti</li><li>Video</li><li>Foto</li></ul>');
+                                $productDetail.append('<ul class="prodotto-toolbox"><li class="prodotto-toolbox-info">Info</li><li class="prodotto-toolbox-scheda">Scheda</li><li class="prodotto-toolbox-doc">Documenti</li><li class="prodotto-toolbox-video">Video</li><li class="prodotto-toolbox-foto">Foto</li></ul>');
 
 
-                                if ( !$productDetail.hasClass('product-detail-show')) $productDetail.addClass('product-detail-show'); 
+                                $prodInfo.append('<div class="prodotto-info"><div class="fll-left">'+prodotto.codice+'</div><div class="fll-right">'+prodotto.prezzo+'€</div></div>');
+
+                                $prodInfo.append('<div class="prodotto-testo">'+prodotto.testo+'</div>');
+
+                               
+
+                                $(prodotto.varianti).each(function(i,variante){
+
+                                    $prodScheda.append('<div class="">Variante'+i+'</div>');
+
+                                });
+
+                                $(prodotto.documenti).each(function(i,doc){
+
+                                    $prodDoc.append('<article class="prodotto-documento"><a href="'+doc.path+'">'+doc.nome+'</a></article>');
+
+                                });
+
+
+                                $productDetail.append($prodInfo);
+                                $productDetail.append($prodScheda);
+                                $productDetail.append($prodDoc);
+                                $productDetail.append($prodVideo);
+                                $productDetail.append($prodFoto);
+
+                                if ( !$productDetail.hasClass('product-detail-show')) $productDetail.addClass('product-detail-show');
+                                
+                                //accendo le info
+                                $('.prodotto-toolbox-info').trigger('click');
                             }
                         });
                     }

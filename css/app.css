@@ -69,7 +69,7 @@ header h1 {
     right: 0;
     left: 0;
     bottom: 0;
-    top: 43px;
+    top: 44px;
 
 
 }
@@ -197,14 +197,36 @@ header h1 {
     background: #fff;
     display: none;
     float: left;
-    height: 100%;
+    height: 98%;
     overflow: auto;
-    padding: 0 1%;
+    padding: 1%;
+    position: relative;
     width: 98%;
 }
 .product-detail-show {
     display: block;
 }
+
+.product-detail-layer {
+    display: none;
+}
+
+.product-detail.product-detail-layer-info-show .product-detail-layer-info {
+    display: block;
+}
+.product-detail.product-detail-layer-scheda-show .product-detail-layer-scheda {
+    display: block;
+}
+.product-detail.product-detail-layer-doc-show .product-detail-layer-doc {
+    display: block;
+}
+.product-detail.product-detail-layer-video-show .product-detail-layer-video {
+    display: block;
+}
+.product-detail.product-detail-layer-foto-show .product-detail-layer-foto {
+    display: block;
+}
+
 
 .prodotto-toolbox {
     background: #353535;
@@ -221,6 +243,7 @@ header h1 {
     left: 0;
     margin: 0;
     position: fixed;
+    right: 0;
 }
 .prodotto-toolbox li {
     color: #fff;
@@ -247,6 +270,10 @@ header h1 {
     background: url(../img/ico-foto.png) no-repeat center top;   
 }
 
+.prodotto-toolbox li.prodotto-toolbox-active {
+    background-position: center -125px;
+}
+
 .product-listitem > li.showToolbox .prodotto-toolbox {
     display: block;
 }
@@ -269,12 +296,39 @@ header h1 {
     color: #000;
     font-size: 150%;
     font-weight: normal;
-    padding: 0 0 10px 0;
+    margin: 0 44px 0 0;
+    padding: 0 0 5px 0;
+    position: relative;
     white-space: nowrap;
 }
 .product-detail h1 span {
     color: #808080;
 }
+.product-detail .prodotto-icona {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    height: 38px;
+    position: absolute;
+    right: -45px;
+    top: 0px;
+    width: 38px;
+}
+.product-detail.product-detail-layer-info-show .prodotto-icona {
+    background: url(../img/ico-info.png) center 5px no-repeat;
+}
+.product-detail.product-detail-layer-scheda-show .prodotto-icona {
+    background: url(../img/ico-scheda.png) center 5px no-repeat;
+}
+.product-detail.product-detail-layer-doc-show .prodotto-icona {
+    background: url(../img/ico-documenti.png) center 5px no-repeat;
+}
+.product-detail.product-detail-layer-video-show .prodotto-icona {
+    background: url(../img/ico-video.png) center 5px no-repeat;
+}
+.product-detail.product-detail-layer-foto-show .prodotto-icona {
+    background: url(../img/ico-foto.png) center 5px no-repeat;
+}
+
 .product-detail .prodotto-testo {
     background: #f1f1f1;
     margin: 0 0 70px 0;
