@@ -19,11 +19,14 @@ header {
 
     border-bottom: 1px solid #000;
     height: 43px;
-    
+    left: 0;
     line-height: 43px;
     position: fixed;
     top: 0;
     width: 100%;
+}
+body.menu-open header {
+    left: auto;
 }
 header button {
     background: #004f78 url(../img/header-ico-sprite.png) no-repeat 0 center;
@@ -104,7 +107,7 @@ header h1 {
     width: 73%;
     z-index: 10;
 }
-#menu.menu-open {
+body.menu-open #menu {
     z-index: 30;
 }
 .search {

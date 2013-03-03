@@ -113,10 +113,10 @@ var database = $.parseJSON('{"lista":[{"id":"c0","nome":"categoria 0","img":"","
                                 //if menu isn't visible
                                 $wrapper.animate({
                                     marginLeft: menuWidth+'px',
-                                }, 300, function(){$menu.addClass('menu-open')});
+                                }, 300, function(){$('body').addClass('menu-open')});
                             }
                             else {
-                                $menu.removeClass('menu-open')
+                                $('body').removeClass('menu-open')
                                 $wrapper.animate({
                                     marginLeft: 0,
                                 }, 300, function(){});
