@@ -32,15 +32,7 @@ var database = $.parseJSON('{"lista":[{"id":"c0","nome":"categoria 0","img":"","
                         });
                     });
 
-                    //after download productlist then i fill the menu
-                        var $menuProdotti = $('.menu-prodotti ul');
-                        $menuProdotti.html('');
 
-
-                        $(database.lista).each(function(i,el){
-                            $menuProdotti.append('<li><a href="javascript:;" data-target="#category-list" data-cat="'+el.id+'">'+el.nome+'</a></li>');                        
-
-                        });
 
 
                     $(document).on(
