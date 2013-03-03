@@ -53,7 +53,7 @@ header h1 {
     -webkit-box-shadow:  -5px 0px 5px 0px rgba(0, 0, 0, 0.5);
     background: #e6e6e6;
     box-shadow:  -5px 0px 5px 0px rgba(0, 0, 0, 0.5);
-    left: 0;
+    margin: 0 0 0 0;
     min-height: 100%;
     position: relative;
     top: 0;
