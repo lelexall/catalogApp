@@ -95,6 +95,7 @@ header h1 {
     background: #cccccc;
     bottom: 0;
     left: 0;
+    overflow: auto;
     position: absolute;
     top: 0;
     width: 73%;
@@ -169,6 +170,7 @@ header h1 {
     */
 }
 .product-listitem > li a {
+    display: block;
     text-decoration: none;
 }
 .product-listitem .prodotto-img {
@@ -249,7 +251,7 @@ header h1 {
     color: #fff;
     cursor: pointer;
     display: inline-block;
-    font-size: 100%;
+    font-size: 75%;
     padding: 30px 0 0 0;
     text-align: center;
     width: 20%
@@ -280,7 +282,7 @@ header h1 {
 
 .product-detail .prodotto-img {
     border-bottom: 1px solid #e6e6e6;
-    height: 500px;
+    height: 250px;
     padding: 0 0 10px 0;
     text-align: center;
 }
@@ -294,7 +296,7 @@ header h1 {
 .product-detail h1 {
     border-bottom: 1px solid #e6e6e6;
     color: #000;
-    font-size: 150%;
+    font-size: 90%;
     font-weight: normal;
     margin: 0 44px 0 0;
     padding: 0 0 5px 0;
@@ -328,10 +330,12 @@ header h1 {
 .product-detail.product-detail-layer-foto-show .prodotto-icona {
     background: url(../img/ico-foto.png) center 5px no-repeat;
 }
-
+.product-detail-layer {
+    margin: 0 0 80px 0;
+}
 .product-detail .prodotto-testo {
     background: #f1f1f1;
-    margin: 0 0 70px 0;
+    overflow: hidden;
 }
 
 
@@ -340,14 +344,13 @@ header h1 {
 ==========================================================================
  MOBILE (min-width 480px)
 ========================================================================== */
-   @media only screen and (min-width: 480px) and (max-width: 979px)  and (orientation: portrait){
-
-   .product-listitem-container {
-    width: 100%;
-   }
+   @media only screen and (min-width: 320px) and (max-width: 979px)  and (orientation: portrait){
+    .product-detail h1 span {
+        display: block;
+    }
 
 }
-
+/*TABLET*/
 @media only screen and (min-width: 768px) and (orientation: portrait){
 
    .product-listitem-container {
@@ -359,6 +362,15 @@ header h1 {
    #menu {
 	width: 320px;
 	}
+    .prodotto-toolbox li{
+        font-size: 100%;
+    }
+    .product-detail .prodotto-img {
+        height: 500px;
+    }
+    .product-detail h1 {
+        font-size: 150%;
+    }
 
 }
 @media only screen and (min-width: 1024px) and (orientation: landscape){
@@ -372,6 +384,13 @@ header h1 {
    #menu {
 	width: 320px;
 	}
-
-
+    .prodotto-toolbox li{
+        font-size: 100%;
+    }
+    .product-detail .prodotto-img {
+        height: 500px;
+    }
+    .product-detail h1 {
+        font-size: 150%;
+    }
 }
