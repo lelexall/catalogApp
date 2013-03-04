@@ -21,7 +21,7 @@ header {
     height: 43px;
     left: 0;
     line-height: 43px;
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100%;
 }
