@@ -25,9 +25,11 @@ header {
     top: 0;
     width: 100%;
 }
-body.menu-open header {
+body.menu-open header,
+body.menu-open .isSmartphone .product-detail .prodotto-toolbox {
     left: auto;
 }
+
 header button {
     background: #004f78 url(../img/header-ico-sprite.png) no-repeat 0 center;
     border: 1px solid #000;
@@ -253,6 +255,7 @@ body.menu-open #menu {
 .isSmartphone .product-detail .prodotto-toolbox {
     bottom: 0;
     display: block;
+    left: 0;
     margin: 0;
     position: fixed;
     z-index: 10;
