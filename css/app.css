@@ -165,7 +165,8 @@ body.menu-open #menu {
 
 
 .list-product {
-    background: #e6e6e6;
+    background-color: #f1f1f2;
+    background-size: cover;
     height: 100%;
     overflow: hidden;
    /* padding: 43px 0 0 0;*/
@@ -179,16 +180,14 @@ body.menu-open #menu {
     width: 100%;
    
 }
-.product-listitem {
-    border-bottom: 50px solid #e5f6ff;
-    
+.product-listitem {    
     list-style: none;
     margin: 0;
     padding: 0;
     width: 100%;
 }
 .product-listitem > li {
-    background: #f1f1f1;
+    background: #fff;
     border-bottom: 1px solid #e6e6e6;
     /*
     height: 100px;
@@ -222,7 +221,7 @@ body.menu-open #menu {
 }
 
 .product-detail {
-    background: #fff;
+    background: #3e3d40;
     display: none;
     float: left;
     height: 98%;
@@ -231,6 +230,9 @@ body.menu-open #menu {
     padding: 1%;
     position: relative;
     width: 98%;
+}
+.product-detail-content {
+    background: #fff;
 }
 .product-detail-show {
     display: block;
@@ -321,12 +323,13 @@ body.menu-open #menu {
     height: 30px;
 }
 .product-detail h1 {
+    background: #f1f1f2;
     border-bottom: 1px solid #e6e6e6;
     color: #000;
     font-size: 90%;
     font-weight: normal;
-    margin: 0 44px 0 0;
-    padding: 0 0 5px 0;
+    margin: 0 0 0 0;
+    padding: 10px;
     position: relative;
     white-space: nowrap;
 }
@@ -338,7 +341,7 @@ body.menu-open #menu {
     border: 1px solid #e6e6e6;
     height: 38px;
     position: absolute;
-    right: -45px;
+    right: 0px;
     top: 0px;
     width: 38px;
 }
@@ -363,6 +366,7 @@ body.menu-open #menu {
 .product-detail .prodotto-testo {
     background: #f1f1f1;
     overflow: hidden;
+    padding: 10px;
 }
 
 
