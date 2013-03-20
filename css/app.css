@@ -19,15 +19,11 @@ header {
 
     border-bottom: 1px solid #000;
     height: 43px;
-    left: 0;
+    left: auto;
     line-height: 43px;
     position: fixed;
     top: 0;
     width: 100%;
-}
-body.menu-open header,
-body.menu-open .isSmartphone .product-detail .prodotto-toolbox {
-    left: auto;
 }
 
 header button {
