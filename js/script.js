@@ -10,9 +10,9 @@ var database = $.parseJSON('{"lista":[{"id":"c0","nome":"SalvaTerra","img":"cat_
                         $body.addClass('isIpad');
                     }
                     else {
-                        //$body.addClass('isSmartphone');
+                        $body.addClass('isSmartphone');
                     }
-                    $body.addClass('isIpad');
+                    
 
                     //download the productlist NOT IN LOCAL
                     /*
