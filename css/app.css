@@ -130,9 +130,10 @@ body.menu-open #menu {
     border-bottom: 1px solid #000;
     height: 43px;
     line-height: 43px;
-    padding: 2px 5px;
+    padding: 2px 20px 2px 5px;
 }
 .search input {
+    -webkit-appearance: none;
     background: #fff;
     border: 0;
     border-radius: 10px;
@@ -368,7 +369,52 @@ body.menu-open #menu {
     padding: 10px;
 }
 
+.prodotto-documento a {
+    color: #3e3d40;
+    text-decoration: none;
+}
 
+.product-detail-layer-scheda {
+    border-top: 10px solid #3e3d40;
+    padding: 5px 10px;
+}
+.product-detail-layer-doc {
+    border-top: 10px solid #3e3d40;
+    padding: 5px 10px;
+}
+.product-detail-layer-foto {
+    background: #fff;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+
+<style>
+
+/* Swipe 2 required styles */
+
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
+
+/* END required styles */
+
+</style>
 
             /*
 ==========================================================================
@@ -402,6 +448,12 @@ body.menu-open #menu {
     .product-detail h1 {
         font-size: 150%;
     }
+    .product-detail-content {
+        margin: 10px;
+    }
+    .product-detail-layer {
+    margin: 0;
+    }
 
 }
 @media only screen and (min-width: 1024px) and (orientation: landscape){
@@ -424,5 +476,11 @@ body.menu-open #menu {
     }
     .product-detail h1 {
         font-size: 150%;
+    }
+    .product-detail-content {
+        margin: 10px;
+    }
+    .product-detail-layer {
+    margin: 0;
     }
 }
