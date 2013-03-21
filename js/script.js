@@ -142,6 +142,8 @@ var database = $.parseJSON('{"lista":[{"id":"c0","nome":"SalvaTerra","img":"cat_
                 
             });
             function loadListaProdotti( id ){
+                $body = $('body');
+                
                 var $menuCategorie = $('.product-listitem');
 
                 $menuCategorie.html('');
@@ -152,7 +154,7 @@ var database = $.parseJSON('{"lista":[{"id":"c0","nome":"SalvaTerra","img":"cat_
 
                         $('#category-title').html(el.nome);
 
-                        $('.list-product').css('background-image','url(img/'+el.img+')');
+                        if ( !$body.hasClass('isSmartphone')  ) $('.list-product').css('background-image','url(img/'+el.img+')');
 
                         //found the category then print elements
 
