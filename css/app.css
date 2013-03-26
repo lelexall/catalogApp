@@ -437,6 +437,7 @@ body.menu-open #menu {
 }
 .prodotto-accordion .accordion-testo {
     display: none;
+    font-size: 80%;
 }
 
 .accordion-testo {
@@ -449,9 +450,11 @@ body.menu-open #menu {
     padding: 5px 0 5px 30px;
 }
 .accordion-testo p span {
-    display: inline-block;
+    float: left;
     font-weight: bold;
+    margin: 0 0px 3px 0;
     min-width: 130px;
+
 }
 
 .prodotto-vitigno {
@@ -484,14 +487,14 @@ body.menu-open #menu {
 @media only screen and (min-width: 768px) and (orientation: portrait){
 
    .product-listitem-container {
-     width: 35%;
+     width: 40%;
    }
    .product-detail {
-    width: 65%;
+    width: 60%;
    }
    #menu {
     min-width: 320px;
-	width: 35%
+	width: 40%
 	}
     .prodotto-toolbox li{
         font-size: 85%;
@@ -514,6 +517,9 @@ body.menu-open #menu {
     }
     .landing-testo p {
         font-size: 100%;
+    }
+    .prodotto-accordion .accordion-testo {        
+        font-size: 90%;
     }
 
 }
@@ -550,6 +556,10 @@ body.menu-open #menu {
     }
     .landing-testo p {
         font-size: 100%;
+    }
+
+    .prodotto-accordion .accordion-testo {        
+        font-size: 90%;
     }
 }
 
@@ -592,6 +602,7 @@ body.menu-open #menu {
   overflow: hidden;
   visibility: hidden;
   position: relative;
+  width: 100%;
 }
 .swipe-wrap {
   overflow: hidden;

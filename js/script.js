@@ -122,9 +122,9 @@
                         '.prodotto-toolbox-foto',
                         function(){
                             
-                            
+
                                 window.mySwipe.setup();
-                            
+
                         }
                     )
 
@@ -244,11 +244,11 @@
                                 $(prodotto.varianti).each(function(i,variante){
                                     var htmlAccordion = $('<div class="accordion-testo"/>');
 
-                                    if ( variante.vitigno ) htmlAccordion.append('<p class="prodotto-vitigno"><span>Vitigno: </span>'+variante.vitigno+'</p>');
-                                    if ( variante.colore )  htmlAccordion.append('<p class="prodotto-colore"><span>Colore: </span>'+variante.colore+'</p>');
-                                    if ( variante.bouquet ) htmlAccordion.append('<p class="prodotto-bouquet"><span>Bouquet: </span>'+variante.bouquet+'</p>');
-                                    if ( variante.gusto ) htmlAccordion.append('<p class="prodotto-gusto"><span>Gusto: </span>'+variante.gusto+'</p>');
-                                    if ( variante.accostamenti ) htmlAccordion.append('<p class="prodotto-accostamenti"><span>Accostamenti: </span>'+variante.accostamenti+'</p>');
+                                    if ( variante.vitigno ) htmlAccordion.append('<p class="prodotto-vitigno clearfix"><span>Vitigno: </span>'+variante.vitigno+'</p>');
+                                    if ( variante.colore )  htmlAccordion.append('<p class="prodotto-colore clearfix"><span>Colore: </span>'+variante.colore+'</p>');
+                                    if ( variante.bouquet ) htmlAccordion.append('<p class="prodotto-bouquet clearfix"><span>Bouquet: </span>'+variante.bouquet+'</p>');
+                                    if ( variante.gusto ) htmlAccordion.append('<p class="prodotto-gusto clearfix"><span>Gusto: </span>'+variante.gusto+'</p>');
+                                    if ( variante.accostamenti ) htmlAccordion.append('<p class="prodotto-accostamenti clearfix"><span>Accostamenti: </span>'+variante.accostamenti+'</p>');
 
                                     $prodScheda.append('<div class="prodotto-accordion"><a href="javascript:;" class="accordion-label">'+variante.label+'</a>'+htmlAccordion[0].outerHTML+'</div>');
 
@@ -266,7 +266,7 @@
 
                                 });
 
-                                var elencofoto = $("<div id='mySwipe' style='width:500px;margin:0 auto' class='swipe'><div class='swipe-wrap'/></div>");
+                                var elencofoto = $("<div id='mySwipe' style='' class='swipe'><div class='swipe-wrap'/></div>");
 
                                 $(prodotto.foto).each(function(i,foto){
 
