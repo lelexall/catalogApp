@@ -98,6 +98,7 @@ header h1 {
 .landing-testo h1 {
     background: #262528;
     color: #b29562;
+    font-size: 85%;
     font-weight: bold;
 }
 .landing-testo h1,
@@ -109,6 +110,7 @@ header h1 {
 .landing-testo p {
     background: rgba(38,37,40,0.8);
     color: #fff;
+    font-size: 80%;
     max-height: 150px;
 }
 #menu {
@@ -507,6 +509,13 @@ body.menu-open #menu {
     margin: 0;
     }
 
+    .landing-testo h1 {
+        font-size: 150%;
+    }
+    .landing-testo p {
+        font-size: 100%;
+    }
+
 }
 @media only screen and (min-width: 1024px) and (orientation: landscape){
 
@@ -534,6 +543,13 @@ body.menu-open #menu {
     }
     .product-detail-layer {
     margin: 0;
+    }
+
+    .landing-testo h1 {
+        font-size: 150%;
+    }
+    .landing-testo p {
+        font-size: 100%;
     }
 }
 
