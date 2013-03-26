@@ -267,15 +267,21 @@
                                 });
 
                                 var elencofoto = $("<div id='mySwipe' style='' class='swipe'><div class='swipe-wrap'/></div>");
+                                var indicator = $('<ul id="position"/>');
 
                                 $(prodotto.foto).each(function(i,foto){
 
                                     elencofoto.find('.swipe-wrap').append('<div><img src="img/m_'+foto+'" /></div>');
+                                    
+                                    if ( i == 0) indicator.append('<li class="on"/>');
+                                    else indicator.append('<li/>');
 
                                 });
 
+                               
 
                                 $prodFoto.append(elencofoto);
+                                $prodFoto.append(indicator);
 
 
                                 $productDetailContent.append($prodInfo);
@@ -291,7 +297,16 @@
 
 
 
-                                window.mySwipe = $('#mySwipe').Swipe().data('Swipe')
+                                window.mySwipe = $('#mySwipe').Swipe({
+                                    callback: function(pos) {
+                                        console.log(pos);
+
+                                        $('#position li.on').removeClass('on');
+
+                                        $($('#position li').get(pos)).addClass('on');
+                                    }
+
+                                }).data('Swipe')
 
                             }
                         });

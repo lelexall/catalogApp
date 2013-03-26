@@ -606,3 +606,26 @@ body.menu-open #menu {
 .swipe-wrap img {
     max-width: 100%;
 }
+
+#position {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#position li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #141414;
+    box-shadow: inset 0 1px 3px black,0 0 1px 1px #202020;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+#position li.on {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b29562), color-stop(100%,#86704a));
+    background: -webkit-linear-gradient(top,  #b29562 0%,#86704a 100%);
+    background: linear-gradient(to bottom,  #b29562 0%,#86704a 100%);
+}
