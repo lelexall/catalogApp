@@ -114,11 +114,12 @@ header h1 {
     max-height: 150px;
 }
 #menu {
+    -webkit-overflow-scrolling : touch;
     background: #b29562;
     bottom: 0;
     left: 0;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
     position: fixed;
     top: 0;
     width: 73%;
@@ -202,11 +203,12 @@ body.menu-open #menu {
    /* padding: 43px 0 0 0;*/
 }
 .product-listitem-container {
+    -webkit-overflow-scrolling : touch;
     background: #cccccc;
     float: left;
     height: 100%;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
     width: 100%;
    
 }
@@ -251,6 +253,7 @@ body.menu-open #menu {
 }
 
 .product-detail {
+    -webkit-overflow-scrolling : touch;
     background: #3e3d40;
     display: none;
     float: left;
@@ -453,7 +456,7 @@ body.menu-open #menu {
     float: left;
     font-weight: bold;
     margin: 0 0px 3px 0;
-    min-width: 130px;
+    min-width: 110px;
 
 }
 
