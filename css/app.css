@@ -155,7 +155,7 @@ body.menu-open #menu {
     color: #fff;
     font-size: 95%;
     display: block;
-    padding: 8px 10px;
+    padding: 8px 10px 8px 40px;
     text-decoration: none;
 }
 .menu li.menu-haschild > a {
@@ -163,6 +163,33 @@ body.menu-open #menu {
     padding: 5px 10px;
 }
 
+.menu-home a {
+    background: #3e3d40 url(../img/menu-home.png) no-repeat 5px center;
+}
+.menu-prodotti ul li a {
+    background: #3e3d40 url(../img/menu-bottiglia.png) no-repeat 13px center;
+}
+
+.menu-azienda a {
+    background: #3e3d40 url(../img/menu-azienda.png) no-repeat 5px center;
+}
+.menu-foto a {
+    background: #3e3d40 url(../img/menu-foto.png) no-repeat 5px center;
+}
+.menu-contatti a {
+    background: #3e3d40 url(../img/menu-contatti.png) no-repeat 5px center;
+}
+.menu-mappa a {
+    background: #3e3d40 url(../img/menu-mappa.png) no-repeat 5px center;
+}
+
+
+.menu-news a {
+    background: #3e3d40 url(../img/menu-news.png) no-repeat 5px center;
+}
+.menu-eventi a {
+    background: #3e3d40 url(../img/menu-eventi.png) no-repeat 5px center;
+}
 
 
 .list-product {
@@ -508,4 +535,54 @@ body.menu-open #menu {
     .product-detail-layer {
     margin: 0;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#mySwipe div b {
+  display:block;
+  font-weight:bold;
+  color:#14ADE5;
+  font-size:20px;
+  text-align:center;
+  margin:10px;
+  padding:100px 10px;
+  box-shadow: 0 1px #EBEBEB;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #E5E5E5 #D3D3D3 #B9C1C6;
+}
+
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
 }

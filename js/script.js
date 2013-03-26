@@ -117,6 +117,17 @@
                         }
                     )
 
+                    $(document).on(
+                        'click',
+                        '.prodotto-toolbox-foto',
+                        function(){
+                            
+                            
+                                window.mySwipe.setup();
+                            
+                        }
+                    )
+
                 },
                 '.button-menu': function (selector, $buttonMenu) {
                     var $wrapper = $('#wrapper'),
@@ -255,13 +266,14 @@
 
                                 });
 
-                                var elencofoto = $('<div  id="slider" class="swipe"><div class="swipe-wrap"></div></div>');
+                                var elencofoto = $("<div id='mySwipe' style='width:500px;margin:0 auto' class='swipe'><div class='swipe-wrap'/></div>");
 
                                 $(prodotto.foto).each(function(i,foto){
 
-                                    //elencofoto.find('.swipe-wrap').append('<div><img src="img/m_'+prodotto.img+'" /></div>');
+                                    elencofoto.find('.swipe-wrap').append('<div><img src="img/m_'+foto+'" /></div>');
 
                                 });
+
 
                                 $prodFoto.append(elencofoto);
 
@@ -278,6 +290,8 @@
                                 $('.prodotto-toolbox-info').trigger('click');
 
 
+
+                                window.mySwipe = $('#mySwipe').Swipe().data('Swipe')
 
                             }
                         });
