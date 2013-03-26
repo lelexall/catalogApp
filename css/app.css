@@ -232,7 +232,7 @@ body.menu-open #menu {
     width: 100%;
 }
 .product-detail-content {
-    background: #fff;
+    
 }
 .product-detail-show {
     display: block;
@@ -310,6 +310,7 @@ body.menu-open #menu {
 }
 
 .product-detail .prodotto-img {
+    background: #fff;
     border-bottom: 1px solid #e6e6e6;
     height: 250px;
     padding: 0 0 10px 0;
@@ -338,27 +339,26 @@ body.menu-open #menu {
 }
 .product-detail .prodotto-icona {
     background: #fff;
-    border: 1px solid #e6e6e6;
-    height: 38px;
+    bottom: 0;
     position: absolute;
     right: 0px;
     top: 0px;
     width: 38px;
 }
 .product-detail.product-detail-layer-info-show .prodotto-icona {
-    background: url(../img/ico-info.png) center 5px no-repeat;
+    background: url(../img/layer-info.png) center center no-repeat;
 }
 .product-detail.product-detail-layer-scheda-show .prodotto-icona {
-    background: url(../img/ico-scheda.png) center 5px no-repeat;
+    background: url(../img/layer-scheda.png) center center no-repeat;
 }
 .product-detail.product-detail-layer-doc-show .prodotto-icona {
-    background: url(../img/ico-documenti.png) center 5px no-repeat;
+    background: url(../img/layer-documenti.png) center center no-repeat;
 }
 .product-detail.product-detail-layer-video-show .prodotto-icona {
-    background: url(../img/ico-video.png) center 5px no-repeat;
+    background: url(../img/ico-video.png) center center no-repeat;
 }
 .product-detail.product-detail-layer-foto-show .prodotto-icona {
-    background: url(../img/ico-foto.png) center 5px no-repeat;
+    background: url(../img/ico-foto.png) center center no-repeat;
 }
 .product-detail-layer {
     margin: 0 0 80px 0;
@@ -369,18 +369,23 @@ body.menu-open #menu {
     padding: 10px;
 }
 
+.prodotto-documento {
+    background: #fff;
+    margin: 0 0 1px 0;
+    padding: 2px 10px;
+}
 .prodotto-documento a {
+    background: url( ../img/ico-download.png) right top no-repeat;
     color: #3e3d40;
+    display: block;
     text-decoration: none;
 }
 
-.product-detail-layer-scheda {
+.product-detail-layer-scheda,
+.product-detail-layer-doc,
+.product-detail-layer-video {
     border-top: 10px solid #3e3d40;
-    padding: 5px 10px;
-}
-.product-detail-layer-doc {
-    border-top: 10px solid #3e3d40;
-    padding: 5px 10px;
+    padding: 5px 0;
 }
 .product-detail-layer-foto {
     background: #fff;
@@ -391,30 +396,50 @@ body.menu-open #menu {
     top: 0;
 }
 
-
-
-<style>
-
-/* Swipe 2 required styles */
-
-.swipe {
-  overflow: hidden;
-  visibility: hidden;
-  position: relative;
+.accordion-label {
+    background: url(../img/accordion-close.png) #f1f1f2 99% center no-repeat;
+    color: #000;
+    display: block;
+    padding: 6px 10px;
+    text-decoration: none;
 }
-.swipe-wrap {
-  overflow: hidden;
-  position: relative;
+.prodotto-accordion-open .accordion-label {
+    background: url(../img/accordion-open.png) #f1f1f2 99% center no-repeat;
 }
-.swipe-wrap > div {
-  float:left;
-  width:100%;
-  position: relative;
+.prodotto-accordion .accordion-testo {
+    display: none;
 }
 
-/* END required styles */
+.accordion-testo {
+    background: #fff;
+    border-top: 1px solid #d0d0d1;
+    padding: 0 10px 10px 10px;
+}
 
-</style>
+.accordion-testo p {
+    padding: 5px 0 5px 30px;
+}
+.accordion-testo p span {
+    display: inline-block;
+    font-weight: bold;
+    min-width: 130px;
+}
+
+.prodotto-vitigno {
+    background: url(../img/ico-vitigno.gif) no-repeat left center;
+}
+.prodotto-bouquet {
+    background: url(../img/ico-bouquet.gif) no-repeat left center;
+}
+.prodotto-colore {
+    background: url(../img/ico-colore.gif) no-repeat left center;
+}
+.prodotto-gusto {
+    background: url(../img/ico-gusto.gif) no-repeat left center;
+}
+.prodotto-accostamenti {
+    background: url(../img/ico-accostamenti.gif) no-repeat left center;
+}
 
             /*
 ==========================================================================
@@ -440,7 +465,7 @@ body.menu-open #menu {
 	width: 35%
 	}
     .prodotto-toolbox li{
-        font-size: 95%;
+        font-size: 85%;
     }
     .product-detail .prodotto-img {
         height: 500px;
@@ -469,7 +494,7 @@ body.menu-open #menu {
 	width: 35%
 	}
     .prodotto-toolbox li{
-        font-size: 95%;
+        font-size: 85%;
     }
     .product-detail .prodotto-img {
         height: 500px;
