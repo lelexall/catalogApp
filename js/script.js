@@ -142,21 +142,21 @@
                                 //if menu isn't visible
                                 $wrapper.animate({
                                     marginLeft: menuWidth+'px',
-                                }, 300, 'easein', function(){$('body').addClass('menu-open')});
+                                }, 300, function(){$('body').addClass('menu-open')});
 
                                 $wrapper.find('header').animate({
                                     marginLeft: menuWidth+'px',
-                                }, 300, 'easein', function(){});
+                                }, 300, function(){});
                             }
                             else {
                                 $('body').removeClass('menu-open')
                                 $wrapper.animate({
                                     marginLeft: 0,
-                                }, 300, 'easein', function(){});
+                                }, 300, function(){});
 
                                $wrapper.find('header').animate({
                                     marginLeft: 0,
-                                }, 300, 'easein', function(){});
+                                }, 300, function(){});
                             }
                         }
                     }); 
