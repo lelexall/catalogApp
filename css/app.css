@@ -111,7 +111,6 @@ header h1 {
     background: rgba(38,37,40,0.8);
     color: #fff;
     font-size: 80%;
-    max-height: 150px;
 }
 #menu {
     -webkit-overflow-scrolling : touch;
