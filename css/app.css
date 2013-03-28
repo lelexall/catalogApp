@@ -52,6 +52,19 @@ header h1 {
     background-position: center -32px;
     right: 5px;
 }
+.button-back {
+    background-image: none;
+    color: #fff;
+    display: none;
+    left: 5px;
+}
+
+.show-back .button-menu {
+    display: none;
+}
+.show-back .button-back {
+    display: block;
+}
 
 #wrapper {
     -webkit-box-shadow:  -5px 0px 5px 0px rgba(0, 0, 0, 0.5);
@@ -208,7 +221,9 @@ body.menu-open #menu {
     height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
+    position: absolute;
     width: 100%;
+    z-index: 40;
    
 }
 .product-listitem {    
@@ -484,11 +499,13 @@ body.menu-open #menu {
         display: block;
     }
 
+
 }
 /*TABLET*/
 @media only screen and (min-width: 768px) and (orientation: portrait){
 
    .product-listitem-container {
+     position: relative;
      width: 40%;
    }
    .product-detail {
@@ -528,6 +545,7 @@ body.menu-open #menu {
 @media only screen and (min-width: 1024px) and (orientation: landscape){
 
    .product-listitem-container {
+     position: relative;
      width: 35%;
    }
    .product-detail {

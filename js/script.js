@@ -93,7 +93,8 @@
                             if ( $(this).data('target') != null ) {
                                 $('.button-menu').trigger('click');
 
-                                $('.product-listitem-container').removeAttr('style');
+                                $('.product-listitem-container').removeAttr('style')
+                                $('#category-list').removeClass('show-back');
 
                                 $('#wrapper').find('.layer-interna-show').removeClass('layer-interna-show');
                                 $($(this).data('target')).addClass('layer-interna-show');
@@ -152,6 +153,23 @@
                         }
                     )
 
+                    $(document).on(
+                        'click',
+                        '.button-back',
+                        function(){
+                            
+                            $('.product-listitem-container').animate({
+                                marginLeft: "0",
+                            },'400',function(){
+                                $('#category-list').removeClass('show-back');
+                                });
+
+
+                        }
+                    )
+
+
+                    
                 },
                 '.button-menu': function (selector, $buttonMenu) {
                     var $wrapper = $('#wrapper'),
@@ -240,6 +258,8 @@
                     $('.product-listitem-container').animate({
                         marginLeft: "-100%",
                     });
+
+                    $('#category-list').addClass('show-back');
 
                 }
                 else {
