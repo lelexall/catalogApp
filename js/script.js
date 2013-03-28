@@ -50,7 +50,11 @@
 
                                 $wrapper.find('header').css({
                                     marginLeft: menuWidth+'px',
-                                });    
+                                });   
+
+                                $('.product-detail-content').find('.prodotto-toolbox').css({
+                                    marginLeft: menuWidth+'px',
+                                });   
                         }
 
                     });
@@ -151,10 +155,12 @@
                 },
                 '.button-menu': function (selector, $buttonMenu) {
                     var $wrapper = $('#wrapper'),
-                        $menu = $('#menu'),
-                        menuWidth = $menu.width();
+                        $menu = $('#menu');
 
                     $buttonMenu.click(function(){
+
+                        var menuWidth = $menu.width();
+
                         if ( !$wrapper.is(':animated') )  {
                             //if wrapper is not animated 
                             
@@ -167,6 +173,10 @@
                                 $wrapper.find('header').animate({
                                     marginLeft: menuWidth+'px',
                                 }, 300, function(){});
+
+                                $('.product-detail-content').find('.prodotto-toolbox').animate({
+                                    marginLeft: menuWidth+'px',
+                                }, 300, function(){});
                             }
                             else {
                                 $('body').removeClass('menu-open')
@@ -175,6 +185,10 @@
                                 }, 300, function(){});
 
                                $wrapper.find('header').animate({
+                                    marginLeft: 0,
+                                }, 300, function(){});
+
+                               $('.product-detail-content').find('.prodotto-toolbox').animate({
                                     marginLeft: 0,
                                 }, 300, function(){});
                             }
