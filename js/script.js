@@ -35,6 +35,26 @@
 
                     */
 
+
+                    $(window).bind( 'orientationchange', function(e){
+                        
+                        if ( $('body').hasClass('menu-open') ) {
+
+                            var $wrapper = $('#wrapper'),
+                                $menu = $('#menu'),
+                                menuWidth = $menu.width();
+
+                                $wrapper.css({
+                                    marginLeft: menuWidth+'px',
+                                });
+
+                                $wrapper.find('header').css({
+                                    marginLeft: menuWidth+'px',
+                                });    
+                        }
+
+                    });
+
                      $body.addClass("done");
                        
 
