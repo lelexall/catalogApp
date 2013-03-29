@@ -489,6 +489,46 @@ body.menu-open #menu {
 .prodotto-accostamenti {
     background: url(../img/ico-accostamenti.gif) no-repeat left center;
 }
+.prodotto-temperaturadiservizio {
+    background: url(../img/ico-temperaturadiservizio.gif) no-repeat left center;
+}
+.prodotto-nrbottigliepercartone {
+    background: url(../img/ico-nrbottigliepercartone.gif) no-repeat left center;
+}
+.prodotto-nrcartoniperstrato {
+    background: url(../img/ico-nrcartoniperstrato.gif) no-repeat left center;
+}
+.prodotto-nrcartonipallet {
+    background: url(../img/ico-nrcartonipallet.gif) no-repeat left center;
+}
+.prodotto-nrstratipallet {
+    background: url(../img/ico-nrstratipallet.gif) no-repeat left center;
+}
+.prodotto-dimensionecartone {
+    background: url(../img/ico-dimensionecartone.gif) no-repeat left center;
+}
+.prodotto-pesocartoneinKg {
+    background: url(../img/ico-pesocartoneinKg.gif) no-repeat left center;
+}
+.prodotto-pesopalletinKg {
+    background: url(../img/ico-pesopalletinKg.gif) no-repeat left center;
+}
+.prodotto-bottiglia {
+    background: url(../img/ico-bottiglia.gif) no-repeat left center;
+}
+.prodotto-contenuto {
+    background: url(../img/ico-contenuto.gif) no-repeat left center;
+}
+.prodotto-gradazione {
+    background: url(../img/ico-gradazione.gif) no-repeat left center;
+}
+.prodotto-acidita {
+    background: url(../img/ico-acidita.gif) no-repeat left center;
+}
+
+.prodotto-areadiproduzione {
+    background: url(../img/ico-areadiproduzione.gif) no-repeat left center;
+}
 
             /*
 ==========================================================================

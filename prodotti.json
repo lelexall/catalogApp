@@ -1,2 +1,864 @@
-
-{"lista":[{"id":"c0","nome":"categoria 0","img":"","prodotti":[{"id":"p0","titolo":"prodotto 0","sottotitolo":"subtitp 0","codice":"0138197","prezzo":"088","img":"prodotto0.jpg","testo":"prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]},{"id":"p1","titolo":"prodotto 1","sottotitolo":"subtitp 1","codice":"1725953","prezzo":"111","img":"prodotto0.jpg","testo":"prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]},{"id":"p2","titolo":"prodotto 2","sottotitolo":"subtitp 2","codice":"2203268","prezzo":"210","img":"prodotto0.jpg","testo":"prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]},{"id":"p3","titolo":"prodotto 3","sottotitolo":"subtitp 3","codice":"3192978","prezzo":"362","img":"prodotto0.jpg","testo":"prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]},{"id":"p4","titolo":"prodotto 4","sottotitolo":"subtitp 4","codice":"4277073","prezzo":"449","img":"prodotto0.jpg","testo":"prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]}]},{"id":"c1","nome":"categoria 1","img":"","prodotti":[{"id":"p0","titolo":"prodotto 0","sottotitolo":"subtitp 0","codice":"0127559","prezzo":"021","img":"prodotto1.jpg","testo":"prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]},{"id":"p1","titolo":"prodotto 1","sottotitolo":"subtitp 1","codice":"1144728","prezzo":"115","img":"prodotto1.jpg","testo":"prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]},{"id":"p2","titolo":"prodotto 2","sottotitolo":"subtitp 2","codice":"2569856","prezzo":"287","img":"prodotto1.jpg","testo":"prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]},{"id":"p3","titolo":"prodotto 3","sottotitolo":"subtitp 3","codice":"3408308","prezzo":"393","img":"prodotto1.jpg","testo":"prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]},{"id":"p4","titolo":"prodotto 4","sottotitolo":"subtitp 4","codice":"4145515","prezzo":"414","img":"prodotto1.jpg","testo":"prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]}]},{"id":"c2","nome":"categoria 2","img":"","prodotti":[{"id":"p0","titolo":"prodotto 0","sottotitolo":"subtitp 0","codice":"0580132","prezzo":"014","img":"prodotto2.jpg","testo":"prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]},{"id":"p1","titolo":"prodotto 1","sottotitolo":"subtitp 1","codice":"1166651","prezzo":"111","img":"prodotto2.jpg","testo":"prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]},{"id":"p2","titolo":"prodotto 2","sottotitolo":"subtitp 2","codice":"2163241","prezzo":"225","img":"prodotto2.jpg","testo":"prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]},{"id":"p3","titolo":"prodotto 3","sottotitolo":"subtitp 3","codice":"3946974","prezzo":"389","img":"prodotto2.jpg","testo":"prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]},{"id":"p4","titolo":"prodotto 4","sottotitolo":"subtitp 4","codice":"4186436","prezzo":"419","img":"prodotto2.jpg","testo":"prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]}]},{"id":"c3","nome":"categoria 3","img":"","prodotti":[{"id":"p0","titolo":"prodotto 0","sottotitolo":"subtitp 0","codice":"0316730","prezzo":"010","img":"prodotto3.jpg","testo":"prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]},{"id":"p1","titolo":"prodotto 1","sottotitolo":"subtitp 1","codice":"1706844","prezzo":"110","img":"prodotto3.jpg","testo":"prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]},{"id":"p2","titolo":"prodotto 2","sottotitolo":"subtitp 2","codice":"2113627","prezzo":"259","img":"prodotto3.jpg","testo":"prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]},{"id":"p3","titolo":"prodotto 3","sottotitolo":"subtitp 3","codice":"3208668","prezzo":"320","img":"prodotto3.jpg","testo":"prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]},{"id":"p4","titolo":"prodotto 4","sottotitolo":"subtitp 4","codice":"4654231","prezzo":"421","img":"prodotto3.jpg","testo":"prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]}]},{"id":"c4","nome":"categoria 4","img":"","prodotti":[{"id":"p0","titolo":"prodotto 0","sottotitolo":"subtitp 0","codice":"0388684","prezzo":"019","img":"prodotto4.jpg","testo":"prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]},{"id":"p1","titolo":"prodotto 1","sottotitolo":"subtitp 1","codice":"1175370","prezzo":"118","img":"prodotto4.jpg","testo":"prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]},{"id":"p2","titolo":"prodotto 2","sottotitolo":"subtitp 2","codice":"2134423","prezzo":"274","img":"prodotto4.jpg","testo":"prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]},{"id":"p3","titolo":"prodotto 3","sottotitolo":"subtitp 3","codice":"3565328","prezzo":"317","img":"prodotto4.jpg","testo":"prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]},{"id":"p4","titolo":"prodotto 4","sottotitolo":"subtitp 4","codice":"4167745","prezzo":"420","img":"prodotto4.jpg","testo":"prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4","varianti":[{"label":"variante0","detail":"variante detail0"},{"label":"variante1","detail":"variante detail1"},{"label":"variante2","detail":"variante detail2"}],"documenti":[{"nome":"documento0","path":"documentopath0.pdf"},{"nome":"documento1","path":"documentopath1.pdf"}]}]}]}
+{
+    "lista": [
+        {
+            "id": "c0",
+            "nome": "categoria 0",
+            "img": "",
+            "prodotti": [
+                {
+                    "id": "p0",
+                    "titolo": "prodotto 0",
+                    "sottotitolo": "subtitp 0",
+                    "codice": "0138197",
+                    "prezzo": "088",
+                    "img": "prodotto0.jpg",
+                    "testo": "prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                },
+                {
+                    "id": "p1",
+                    "titolo": "prodotto 1",
+                    "sottotitolo": "subtitp 1",
+                    "codice": "1725953",
+                    "prezzo": "111",
+                    "img": "prodotto0.jpg",
+                    "testo": "prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                },
+                {
+                    "id": "p2",
+                    "titolo": "prodotto 2",
+                    "sottotitolo": "subtitp 2",
+                    "codice": "2203268",
+                    "prezzo": "210",
+                    "img": "prodotto0.jpg",
+                    "testo": "prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                },
+                {
+                    "id": "p3",
+                    "titolo": "prodotto 3",
+                    "sottotitolo": "subtitp 3",
+                    "codice": "3192978",
+                    "prezzo": "362",
+                    "img": "prodotto0.jpg",
+                    "testo": "prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                },
+                {
+                    "id": "p4",
+                    "titolo": "prodotto 4",
+                    "sottotitolo": "subtitp 4",
+                    "codice": "4277073",
+                    "prezzo": "449",
+                    "img": "prodotto0.jpg",
+                    "testo": "prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0prodotto0",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "c1",
+            "nome": "categoria 1",
+            "img": "",
+            "prodotti": [
+                {
+                    "id": "p0",
+                    "titolo": "prodotto 0",
+                    "sottotitolo": "subtitp 0",
+                    "codice": "0127559",
+                    "prezzo": "021",
+                    "img": "prodotto1.jpg",
+                    "testo": "prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                },
+                {
+                    "id": "p1",
+                    "titolo": "prodotto 1",
+                    "sottotitolo": "subtitp 1",
+                    "codice": "1144728",
+                    "prezzo": "115",
+                    "img": "prodotto1.jpg",
+                    "testo": "prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                },
+                {
+                    "id": "p2",
+                    "titolo": "prodotto 2",
+                    "sottotitolo": "subtitp 2",
+                    "codice": "2569856",
+                    "prezzo": "287",
+                    "img": "prodotto1.jpg",
+                    "testo": "prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                },
+                {
+                    "id": "p3",
+                    "titolo": "prodotto 3",
+                    "sottotitolo": "subtitp 3",
+                    "codice": "3408308",
+                    "prezzo": "393",
+                    "img": "prodotto1.jpg",
+                    "testo": "prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                },
+                {
+                    "id": "p4",
+                    "titolo": "prodotto 4",
+                    "sottotitolo": "subtitp 4",
+                    "codice": "4145515",
+                    "prezzo": "414",
+                    "img": "prodotto1.jpg",
+                    "testo": "prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1prodotto1",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "c2",
+            "nome": "categoria 2",
+            "img": "",
+            "prodotti": [
+                {
+                    "id": "p0",
+                    "titolo": "prodotto 0",
+                    "sottotitolo": "subtitp 0",
+                    "codice": "0580132",
+                    "prezzo": "014",
+                    "img": "prodotto2.jpg",
+                    "testo": "prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                },
+                {
+                    "id": "p1",
+                    "titolo": "prodotto 1",
+                    "sottotitolo": "subtitp 1",
+                    "codice": "1166651",
+                    "prezzo": "111",
+                    "img": "prodotto2.jpg",
+                    "testo": "prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                },
+                {
+                    "id": "p2",
+                    "titolo": "prodotto 2",
+                    "sottotitolo": "subtitp 2",
+                    "codice": "2163241",
+                    "prezzo": "225",
+                    "img": "prodotto2.jpg",
+                    "testo": "prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                },
+                {
+                    "id": "p3",
+                    "titolo": "prodotto 3",
+                    "sottotitolo": "subtitp 3",
+                    "codice": "3946974",
+                    "prezzo": "389",
+                    "img": "prodotto2.jpg",
+                    "testo": "prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                },
+                {
+                    "id": "p4",
+                    "titolo": "prodotto 4",
+                    "sottotitolo": "subtitp 4",
+                    "codice": "4186436",
+                    "prezzo": "419",
+                    "img": "prodotto2.jpg",
+                    "testo": "prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2prodotto2",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "c3",
+            "nome": "categoria 3",
+            "img": "",
+            "prodotti": [
+                {
+                    "id": "p0",
+                    "titolo": "prodotto 0",
+                    "sottotitolo": "subtitp 0",
+                    "codice": "0316730",
+                    "prezzo": "010",
+                    "img": "prodotto3.jpg",
+                    "testo": "prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                },
+                {
+                    "id": "p1",
+                    "titolo": "prodotto 1",
+                    "sottotitolo": "subtitp 1",
+                    "codice": "1706844",
+                    "prezzo": "110",
+                    "img": "prodotto3.jpg",
+                    "testo": "prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                },
+                {
+                    "id": "p2",
+                    "titolo": "prodotto 2",
+                    "sottotitolo": "subtitp 2",
+                    "codice": "2113627",
+                    "prezzo": "259",
+                    "img": "prodotto3.jpg",
+                    "testo": "prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                },
+                {
+                    "id": "p3",
+                    "titolo": "prodotto 3",
+                    "sottotitolo": "subtitp 3",
+                    "codice": "3208668",
+                    "prezzo": "320",
+                    "img": "prodotto3.jpg",
+                    "testo": "prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                },
+                {
+                    "id": "p4",
+                    "titolo": "prodotto 4",
+                    "sottotitolo": "subtitp 4",
+                    "codice": "4654231",
+                    "prezzo": "421",
+                    "img": "prodotto3.jpg",
+                    "testo": "prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3prodotto3",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "c4",
+            "nome": "categoria 4",
+            "img": "",
+            "prodotti": [
+                {
+                    "id": "p0",
+                    "titolo": "prodotto 0",
+                    "sottotitolo": "subtitp 0",
+                    "codice": "0388684",
+                    "prezzo": "019",
+                    "img": "prodotto4.jpg",
+                    "testo": "prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                },
+                {
+                    "id": "p1",
+                    "titolo": "prodotto 1",
+                    "sottotitolo": "subtitp 1",
+                    "codice": "1175370",
+                    "prezzo": "118",
+                    "img": "prodotto4.jpg",
+                    "testo": "prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                },
+                {
+                    "id": "p2",
+                    "titolo": "prodotto 2",
+                    "sottotitolo": "subtitp 2",
+                    "codice": "2134423",
+                    "prezzo": "274",
+                    "img": "prodotto4.jpg",
+                    "testo": "prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                },
+                {
+                    "id": "p3",
+                    "titolo": "prodotto 3",
+                    "sottotitolo": "subtitp 3",
+                    "codice": "3565328",
+                    "prezzo": "317",
+                    "img": "prodotto4.jpg",
+                    "testo": "prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                },
+                {
+                    "id": "p4",
+                    "titolo": "prodotto 4",
+                    "sottotitolo": "subtitp 4",
+                    "codice": "4167745",
+                    "prezzo": "420",
+                    "img": "prodotto4.jpg",
+                    "testo": "prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4prodotto4",
+                    "varianti": [
+                        {
+                            "label": "variante0",
+                            "detail": "variante detail0"
+                        },
+                        {
+                            "label": "variante1",
+                            "detail": "variante detail1"
+                        },
+                        {
+                            "label": "variante2",
+                            "detail": "variante detail2"
+                        }
+                    ],
+                    "documenti": [
+                        {
+                            "nome": "documento0",
+                            "path": "documentopath0.pdf"
+                        },
+                        {
+                            "nome": "documento1",
+                            "path": "documentopath1.pdf"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
