@@ -252,6 +252,12 @@
             }
             function loadProdotto( idCat, idProd ){
 
+
+
+                if ( $('body').hasClass('menu-open') ) $('.button-menu').trigger('click');
+
+
+
                 //first animation..
                 $body = $('body');
                 if ( $body.hasClass('isSmartphone') ) {
@@ -287,7 +293,7 @@
                                 $productDetailContent.append('<h1>'+prodotto.titolo+' '+prodotto.sottotitolo+'<div class="prodotto-icona" /></h1>');
                                 $productDetailContent.append('<div class="prodotto-img"><img src="img/m_'+prodotto.img+'" /></div>');
 
-                                $productDetailContent.append('<ul class="prodotto-toolbox"><li class="prodotto-toolbox-info">Info</li><li class="prodotto-toolbox-scheda">Scheda</li><li class="prodotto-toolbox-doc">Documenti</li><li class="prodotto-toolbox-foto">Foto</li></ul>');
+                                $productDetailContent.append('<ul class="prodotto-toolbox"><li class="prodotto-toolbox-info"><span>Info</span></li><li class="prodotto-toolbox-scheda"><span>Scheda</span></li><li class="prodotto-toolbox-doc"><span>Documenti</span></li><li class="prodotto-toolbox-foto"><span>Foto</span></li></ul>');
 
 
                                 //$prodInfo.append('<div class="prodotto-info"><div class="fll-left">'+prodotto.codice+'</div><div class="fll-right">'+prodotto.prezzo+'€</div></div>');

@@ -72,7 +72,6 @@ header button span {
     background: url(../img/ico-header-info.png) no-repeat center center;
 }
 .button-back {
-    background-image: none;
     color: #fff;
     display: none;
     left: 5px;
@@ -310,13 +309,14 @@ body.menu-open #menu {
 }
 
 .product-detail {
-    -webkit-overflow-scrolling : touch;
+    /*-webkit-overflow-scrolling : touch;*/
     background: #3e3d40;
     display: none;
     float: left;
     height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
+    position: relative;
     width: 100%;
 }
 .product-detail-content {
@@ -358,6 +358,7 @@ background: linear-gradient(to bottom,  rgba(62,61,64,1) 39%,rgba(31,30,32,1) 10
     padding: 0;
     list-style: none;
     width: 100%;
+    z-index: 50;
 }
 
 .isSmartphone .product-detail .prodotto-toolbox {
@@ -599,6 +600,7 @@ background: linear-gradient(to bottom,  rgba(62,61,64,1) 39%,rgba(31,30,32,1) 10
     }
 
 
+
 }
 /*TABLET*/
 @media only screen and (min-width: 768px) and (orientation: portrait){
@@ -608,6 +610,7 @@ background: linear-gradient(to bottom,  rgba(62,61,64,1) 39%,rgba(31,30,32,1) 10
      width: 40%;
    }
    .product-detail {
+    position: static;
     width: 60%;
    }
    #menu {
@@ -648,6 +651,7 @@ background: linear-gradient(to bottom,  rgba(62,61,64,1) 39%,rgba(31,30,32,1) 10
      width: 35%;
    }
    .product-detail {
+    position: static;
     width: 65%;
    }
    #menu {
