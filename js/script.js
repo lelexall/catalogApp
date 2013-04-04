@@ -167,7 +167,27 @@
 
                         }
                     )
+                    $(document).on(
+                        'click',
+                        '.product-foto-close',
+                        function(){
+                            $('.prodotto-toolbox-info').trigger('click');
+                        }
 
+                    )
+
+
+                    $(document).on(
+                        'click',
+                        '.prodotto-document',
+                        function(){
+                            $a = $(this).find('a');
+
+                            window.plugins.childBrowser.showWebPage($a.attr('href'));
+
+                        }
+
+                    )
 
                     
                 },
@@ -358,6 +378,7 @@
 
                                 $prodFoto.append(elencofoto);
                                 $prodFoto.append(indicator);
+                                $prodFoto.append('<div class="product-foto-close">&#10006;</div>')
 
 
                                 $productDetailContent.append($prodInfo);
