@@ -226,6 +226,7 @@
                 $(database.lista).each(function(i,el){
                     if ( el.id == id ){
 
+                        $('.product-listitem-name').html(el.nome);
                         $('#category-title').html(el.nome);
 
                         if ( !$body.hasClass('isSmartphone')  ) $('.list-product').css('background-image','url(img/'+el.img+')');
@@ -241,7 +242,7 @@
                                     '<p class="prodotto-sottotitolo">'+menu.sottotitolo+'</p>'+
                                     '<p class="prodotto-codice">'+menu.codice+'</p>'+
                                 '</a>'+
-                                '<ul class="prodotto-toolbox"><li class="prodotto-toolbox-info">Info</li><li class="prodotto-toolbox-scheda">Scheda</li><li class="prodotto-toolbox-doc">Documenti</li><li class="prodotto-toolbox-foto">Foto</li></ul>'+
+                                '<ul class="prodotto-toolbox"><li class="prodotto-toolbox-info"><span>Info</span></li><li class="prodotto-toolbox-scheda"><span>Scheda</span></li><li class="prodotto-toolbox-doc"><span>Documenti</span></li><li class="prodotto-toolbox-foto"><span>Foto</span></li></ul>'+
                             '</li>')
                         });
 
